@@ -1,0 +1,86 @@
+
+
+
+
+
+.top{
+    height: 55px;
+    background-color: #020305;
+}
+.top .w .logo{
+    float: left;
+    margin-left: 100px;
+    margin-right: 50px;
+    height: 55px;
+    width: 133px;
+    text-indent: -9999px;
+    background:url("../images/logo_b5525b7.png") no-repeat center;
+}
+.top .w .top_right{
+    float: right;
+    height: 55px;
+    line-height: 55px;
+    margin-right: 80px;
+}
+.top .w .kofeng{
+    width: 420px;
+    overflow: hidden;
+    float: left;
+}
+.top .w .kofeng li{
+    width: 100px;
+    height: 55px;
+    float: left;
+    cursor: url("../images/no.png"),move;
+}
+.top .w .top_right li{
+    float: left;
+    margin: 0 14px;
+    cursor: url("../images/no.png"),move;
+}
+.top .w ul li.topa{
+    color: #b72124;
+    position: relative;
+}
+.top .w ul li.topa .mul{
+    margin-right: 18px;
+}
+.top .w ul li.topa i{
+    height: 0;
+    width: 0;
+    content: "";
+    display: block;
+    border-top: 5px solid #b72124;
+    border-right: 5px solid transparent;
+    border-left: 5px solid  transparent;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    right: 0px;
+    top: 24px;
+    color: #b72124;
+}
+.top_lunbo{
+    position: relative;
+    width: 106px;
+    height: 165px;
+}
+.top_lunbo  .top_lunbo1{
+    width: 106px;
+    height: 55px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.top_lunbo  .top_lunbo2{
+    width: 106px;
+    height: 55px;
+    position: absolute;
+    left: 0;
+    top: 55px;
+}
+.top .w .top_right li.bigli{
+    width: 100px;
+    height: 55px;
+    overflow: hidden;
+
+}

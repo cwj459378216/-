@@ -1,0 +1,35 @@
+/*µ×²¿*/
+
+.cl_footer{
+    height: 102px;
+    background-color: black;
+    padding: 20px 0;
+
+
+}
+.cl_footer .cl_footer1{
+    width: 832px;
+    margin: 0 auto;
+    padding: 30px 0;
+    position: relative;
+    color: #999;
+}
+.cl_footer .cl_footer1 .cl_footer_left{
+    float: left;
+}
+.cl_footer .cl_footer1 .cl_footer_right{
+    line-height: 20px;
+
+}
+.cl_footer .cl_footer1 .cl_footer_right .cl_footer123{
+    position: absolute;
+    display: inline-block;
+    color: white;
+    background-color: brown;
+    right: 60px;
+    top: 50px;
+
+}
+.cl_footer .cl_footer1 .cl_footer_right .cl_footer123:hover{
+    text-decoration: underline;
+}

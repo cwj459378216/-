@@ -1,0 +1,614 @@
+/*底部开始*/
+.floor{
+    height: 190px;
+    background-color: #0c0c0c;
+}
+.floor .w{
+position: relative;
+}
+.floor .floor_img1{
+    margin-left: 180px;
+    margin-top: 53px;
+    position: relative;
+}
+.floor .floor_img2{
+    margin-left: 10px;
+}
+.floor .floor_img{
+    margin-top: 53px;
+}
+.floor .w .floor_bq{
+    position: absolute;
+    left:505px;
+    display: inline-block;
+    top: 49px;
+}
+.floor .w .floor_bq li{
+    color: #d60b20;
+    cursor: pointer;
+    width: 54px;
+    height: 18px;
+    float: left;
+}
+.floor .w .floor_bq span{
+    height: 1px;
+    width: 5px;
+    float: left;
+    margin-top: 6px;
+    margin-right: 7px;
+    background-color: #646464;
+}
+.floor .w .fool_p1{
+    position: absolute;
+    left:505px;
+    display: inline-block;
+    top: 67px;
+    height: 26px;
+    line-height: 26px;
+
+}
+.floor .w .fool_p1 .fool_p2{
+    margin-right: 25px;
+    color: #646464;
+}
+.floor .w .fool_p1 .fool_p3{
+    display: inline-block;
+    padding: 0 5px;
+    height: 26px;
+    background-color: #610000;
+    color: #ffffff;
+}
+.floor .w  .fool_p4 {
+    margin-top: 26px;
+    margin-left: 180px;
+    height: 24px;
+    color: #646464;
+}
+.floor .w  .fool_p5 {
+    margin-left: 180px;
+    height: 24px;
+    color: #646464;
+}
+.floor .w  .fool_p6 {
+    color: #d60b20;
+}
+/*倒数第一条*/
+.fool_box{
+    position: relative;
+}
+/*电脑配置区域*/
+.fool_box .bigpz{
+    position: absolute;
+    bottom: 143px;
+    left: 11px;
+    height: 124px;
+    width: 288px;
+    /*background-color: red;*/
+}
+.fool_box .pz{
+    height: 124px;
+    position: absolute;
+    bottom: -18px;
+    left: 3px;
+    line-height: 22px;
+    margin-left: 20px;
+}
+.fool_box .pz1{
+    margin-right: 20px;
+}
+
+/*无双推荐*/
+
+.fool_box .wstj{
+    width: 288px;
+    height: 248px;
+    position: absolute;
+left: 11px;
+    bottom: 278px;
+}
+.fool_box .wstj .wstj1{
+    /*width: 248px;*/
+    /*height: 214px;*/
+    position: absolute;
+    top: 21px;
+    left: 19px;
+}
+.fool_box .wstj .wstj1 .wstj2{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.fool_box .wstj .wstj1 .wstj3{
+    margin-left: 76px;
+
+}
+.fool_box .wstj .wstj1 .wstj4{
+    background-color: #cd2626;
+}
+.fool_box .wstj .wstj1 span{
+    float: left;
+    width: 30px;
+    height: 4px;
+    margin-top: 20px;
+    margin-right: 6px;
+    background-color: #4f4f4f;
+}
+
+
+/*无双图片*/
+.fool_box .wstp {
+    width: 455px;
+    height: 383px;
+    position: absolute;
+    bottom: 143px;
+  left: 300px;
+}
+.fool_box .wstp .wstp1{
+    width: 406px;
+    height: 351px;
+    margin-top: 18px;
+    margin-left: 26px;
+}
+.fool_box .wstp .wstp2{
+    position: relative;
+    height: 32px;
+    border-bottom: 1px solid #5e524a;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.fool_box .wstp .wstp3{
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    background-color: #cc2524;
+}
+.fool_box .wstp .wstp4{
+    width: 401px;
+    background-color: #272320;
+}
+.fool_box .wstp .wstp4 li{
+    float: left;
+    width: 100px;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+.fool_box .wstp .wstp4 li:hover{
+    background-color: #750d0e;
+}
+.fool_box .wstp .wstp4 .wstp5{
+    background-color: #750d0e;
+}
+.fool_box .wstp .wstp1 .wstp6{
+    position: relative;
+    cursor: pointer;
+    width: 194px;
+    height: 117px;
+    margin-top: 14px;
+    overflow: hidden;
+
+}
+.fool_box .wstp .wstp1 .left{
+    float: left;
+}
+
+.fool_box .wstp1 .right{
+    float: right;
+}
+.fool_box .wstp1 .wstp6 img{
+    -webkit-transition: .3s all linear;
+    width: 100%;
+    height: 100%;
+}
+.fool_box .wstp1 .wstp6  .wstp7{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 194px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-weight: 700;
+    font-size: 14px;
+    background-image: url("../images/pic_mask_04db10a.png");
+    color: rgb(255, 255, 255);
+}
+
+/*无双视频站*/
+.fool_box .wsspz{
+    width: 446px;
+    height: 383px;
+    position: absolute;
+    bottom: 143px;
+    right: -11px;
+}
+.fool_box .wsspz .wstp1{
+    width: 406px;
+    height: 351px;
+    margin-top: 18px;
+    margin-left: 19px;
+}
+.fool_box .wsspz .wstp2{
+    position: relative;
+    height: 32px;
+    border-bottom: 1px solid #5e524a;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.fool_box .wsspz .wstp2 .wsspz1{
+    float: left;
+}
+.fool_box .wsspz .wstp2 .wsspz2{
+    float: right;
+    color: #7c7c7c;
+    font-size: 12px;
+    margin-top: 4px;
+}
+.fool_box .wsspz .wstp2 .wsspz3{
+    float: right;
+    color: #181818;
+    background-color: #a81e18;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    margin-left: 7px;
+    line-height: 12px;
+    text-align: center;
+    font-size: 7px;
+    margin-top: 5px;
+}
+.fool_box .wsspz .wstp3{
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100px;
+    height: 3px;
+    background-color: #cc2524;
+}
+.fool_box .wsspz .wstp4{
+    width: 401px;
+    background-color: #272320;
+
+}
+.fool_box .wsspz .wstp4 li{
+    float: left;
+    width: 100px;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+.fool_box .wsspz .wstp4 li:hover{
+    background-color: #750d0e;
+}
+.fool_box .wsspz .wstp4 .wstp5{
+    background-color: #750d0e;
+}
+.fool_box .wsspz .wstp1 .wstp6{
+    position: relative;
+    cursor: pointer;
+    width: 194px;
+    height: 117px;
+    margin-top: 14px;
+    overflow: hidden;
+}
+.fool_box .wsspz .wstp1 .wstp6 .play{
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: 32px;
+    left: 70px;
+}
+.fool_box .wsspz .wstp1 .left{
+    float: left;
+}
+.fool_box .wsspz .wstp1 .right{
+    float: right;
+}
+.fool_box .wsspz .wstp1 .wstp6 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.fool_box .wsspz .wstp1 .wstp6  .wstp7{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 194px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-weight: 700;
+    font-size: 14px;
+    background-image: url("../images/pic_mask_04db10a.png");
+    color: rgb(255, 255, 255);
+}
+
+/*倒数第二条*/
+/*第一个盒子*/
+.fool_box1{
+    position: relative;
+}
+.fool_box1 .index{
+    width: 1200px;
+    height: 554px;
+    position: absolute;
+    top: -1091px;
+    left: 11px;
+    /*background-color: red;*/
+}
+.fool_box1 .index .wstpbox{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 288px;
+    height: 288px;
+}
+.fool_box1 .index .wstp2{
+    position: relative;
+    width: 249px;
+    height: 32px;
+    border-bottom: 1px solid #5e524a;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    margin-top: 18px;
+    margin-left: 18px;
+    /*background-color: blue;*/
+    margin-bottom: 10px;
+}
+.fool_box1 .index .wstp2 .wsspz1{
+    float: left;
+}
+.fool_box1 .index .wstp2 .wsspz2{
+    float: right;
+    color: #7c7c7c;
+    font-size: 12px;
+    margin-top: 4px;
+}
+.fool_box1 .index .wstp2 .wsspz3{
+    float: right;
+    color: #181818;
+    background-color: #a81e18;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    margin-left: 7px;
+    line-height: 12px;
+    text-align: center;
+    font-size: 7px;
+    margin-top: 5px;
+}
+.fool_box1 .index .wstp3{
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 72px;
+    height: 3px;
+    background-color: #cc2524;
+}
+.fool_box1 .index .index_1{
+    width: 249px;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+.fool_box1 .index .index_1 li{
+    width: 118px;
+    height: 57px;
+    margin-top: 10px;
+    cursor: pointer;
+    /*background-color: pink;*/
+}
+.fool_box1 .index .index_1 .index_2{
+    float: left;
+}
+.fool_box1 .index .index_1 .index_3{
+    float: right;
+}
+.fool_box1 .index .index_1 li:nth-child(1){
+    background:url("../images/zt_6a8a344.png") no-repeat;
+}
+.fool_box1 .index .index_1 li:nth-child(2){
+     background:url("../images/zt_6a8a344.png") no-repeat -128px 0;
+ }
+.fool_box1 .index .index_1 li:nth-child(3){
+     background:url("../images/zt_6a8a344.png") no-repeat 0  -66px;
+ }
+.fool_box1 .index .index_1 li:nth-child(4){
+     background:url("../images/zt_6a8a344.png") no-repeat -128px -66px;
+ }
+.fool_box1 .index .index_1 li:nth-child(5){
+     background:url("../images/zt_6a8a344.png") no-repeat 0 -133px;
+ }
+.fool_box1 .index .index_1 li:nth-child(6){
+     background:url("../images/zt_6a8a344.png") no-repeat -128px -133px;
+ }
+.fool_box1 .index .index_4{
+    width: 288px;
+    height: 255px;
+    /*background-color: #fff;*/
+   position: absolute;
+    left: 0px;
+    bottom: 0px;
+
+}
+.fool_box1 .index .index_4  .index_5{
+    width: 248px;
+    height: 206px;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+.fool_box1 .index .index_4  .index_5 .khfw{
+    margin-left: 0;
+    margin-top: 0px;
+}
+.fool_box1 .index .index_4  .index_5 .index_6{
+    margin-top: 27px;
+}
+.fool_box1 .index .index_4  .index_5 .index_6 li{
+    float: left;
+    height: 29px;
+    margin-right: 24px;
+    font-size: 13px;
+    color: #7d7d7d;
+    cursor: pointer;
+    font-weight: 500;
+}
+.fool_box1 .index .index_4  .index_5 .index_6 li:hover{
+    color: #ffffff;
+}
+.fool_box1 .index .index_4  .index_5 .index_6 .index_7{
+    margin-right: 0;
+}
+.fool_box1 .index .index_4  .index_5 .index_8{
+    width: 130px;
+    height: 28px;
+    border-radius: 15px;
+    border: 1px solid #a81e18;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    color: #7d7d7d;
+    cursor: pointer;
+}
+.fool_box1 .index .index_4  .index_5 .index_8:hover{
+    background-color: #a81e18;
+    color: #ffffff;
+}
+
+
+/*第二个盒子*/
+.fool_box1 .index .index_a{
+    width: 446px;
+    height: 554px;
+    /*background-color: pink;*/
+    position: absolute;
+    left: 298px;
+    bottom: 0px;
+}
+.fool_box1 .index .index_a  .index_a1{
+    margin-top: 24px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 1;
+}
+.fool_box1 .index .index_a  .index_a1 li{
+    float: left;
+    font-size: 16px;
+    width: 26px;
+    height: 46px;
+    line-height: 22px;
+    text-align: center;
+    margin-right: 14px;
+    cursor: pointer;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    color: #acacac;
+}
+.fool_box1 .index .index_a  .index_a1 .index_a3{
+    height: 70px;
+}
+.fool_box1 .index .index_a  .index_a1 li:hover{
+    border: 2px solid #cc090a;
+    font-weight: 700;
+    color: #ffffff;
+}
+.fool_box1 .index .index_a  .index_a1 .index_a2{
+    border: 2px solid #cc090a;
+    font-weight: 700;
+    color: #ffffff;
+}
+.fool_box1 .index .index_a .splay{
+    width: 200px;
+    height: 122px;
+    background-color: black;
+    position: absolute;
+    left: 20px;
+    top: 168px;
+}
+.fool_box1 .index .index_a .playloop{
+    position: absolute;
+    left: 84px;
+    top: 190px;
+}
+.fool_box1 .index .index_a p{
+    line-height: 25px;
+    position: absolute;
+    left: 20px;
+    top: 310px;
+    color: #cccccc;
+    font-weight: 500;
+}
+.fool_box1 .index .index_a span{
+    position: absolute;
+    left: 20px;
+    bottom: 122px;
+    width: 80px;
+    height: 19px;
+    border: 1px  solid #a81e18;
+    border-radius: 10px;
+    line-height: 19px;
+    cursor: pointer;
+}
+.fool_box1 .index .index_a span:hover{
+    background-color: #a81e18;
+}
+.fool_box1 .index .index_a span i{
+    height: 0;
+    width: 0;
+    content: "";
+    display: block;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-left: 5px solid #ffffff;
+    border-bottom: 5px solid transparent;
+   position: absolute;
+    right: 4px;
+    top: 5px;
+    color: #ffffff;
+}
+.fool_box1 .index .index_a span b{
+    margin-left: 10px;
+    color: #cecece;
+}
+.fool_box1 .index .index_a .mo{
+    position: absolute;
+    bottom: 33px;
+    left: 20px;
+    color: #cecece;
+}
+.fool_box1 .index .index_a .mo b{
+    margin-left: 10px;
+}
+.fool_box1 .index .index_a .mo i{
+    height: 0;
+    width: 0;
+    content: "";
+    display: block;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-left: 5px solid #ffffff;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    left: 66px;
+    top: 2px;
+    color: #ffffff;
+}
+.fool_box1 .index .index_a img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

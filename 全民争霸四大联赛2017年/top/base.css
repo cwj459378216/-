@@ -1,0 +1,57 @@
+﻿/*
+* @Author: dhl
+* @Date:   2017-02-23 15:05:54
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-03-12 14:48:44
+*/
+
+
+/* CSS初始化 */
+body,p,ul,ol,dl,li,dt,dd,h1,h2,h3,h4,h5,h6 {
+	 margin: 0;
+	 padding: 0;
+	 list-style: none;
+	 font-size: 12px;
+	 font-family: 宋体;
+	 color: #999999;
+}
+
+a {
+	 text-decoration: none;
+   	 color: #999999;
+	cursor: url("../images/no.png"),move;
+}
+
+
+input,img {
+	 vertical-align: middle;
+	 border: 0 none;
+	 outline-style: none;
+	 margin: 0;
+	 padding: 0;
+}
+
+.clearfix:after {
+	 content: "";
+	 height: 0;
+	 line-height: 0;
+	 display: block;
+	 clear: both;
+	 visibility: hidden;
+}
+.clearfix {
+	 zoom: 1;
+}
+
+/* 版心 */
+
+ .w {
+ 	width: 1200px;
+ 	margin: 0 auto;
+ }
+
+#box_shadow {
+	box-shadow: 0 0 10px rgba(255,255,255,.8);
+}
+
+

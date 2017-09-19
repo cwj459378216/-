@@ -1,0 +1,547 @@
+/*幻影鼠标*/
+body {
+    height: 1000px;
+    width: 100%;
+    cursor: url("../images/Arrow.png"),move;
+}
+
+img {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    z-index: 150;
+
+}
+
+
+
+
+
+
+.top{
+    height: 55px;
+    background-color: #020305;
+}
+.top .w .logo{
+    float: left;
+    margin-left: 100px;
+    margin-right: 50px;
+    height: 55px;
+    width: 133px;
+    text-indent: -9999px;
+    background:url("../images/logo_b5525b7.png") no-repeat center;
+}
+.top .w .top_right{
+    float: right;
+    height: 55px;
+    line-height: 55px;
+    margin-right: 80px;
+}
+.top .w .kofeng{
+    width: 420px;
+    overflow: hidden;
+    float: left;
+}
+.top .w .kofeng li{
+    width: 100px;
+    height: 55px;
+    float: left;
+    cursor: url("../images/no.png"),move;
+}
+.top .w .top_right li{
+    float: left;
+    margin: 0 14px;
+    cursor: url("../images/no.png"),move;
+}
+.top .w ul li.topa{
+    color: #b72124;
+    position: relative;
+}
+.top .w ul li.topa .mul{
+    margin-right: 18px;
+}
+.top .w ul li.topa i{
+    height: 0;
+    width: 0;
+    content: "";
+    display: block;
+    border-top: 5px solid #b72124;
+    border-right: 5px solid transparent;
+    border-left: 5px solid  transparent;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    right: 0px;
+    top: 24px;
+    color: #b72124;
+}
+.top_lunbo{
+    position: relative;
+    width: 106px;
+    height: 165px;
+}
+.top_lunbo  .top_lunbo1{
+    width: 106px;
+    height: 55px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.top_lunbo  .top_lunbo2{
+    width: 106px;
+    height: 55px;
+    position: absolute;
+    left: 0;
+    top: 55px;
+}
+.top .w .top_right li.bigli{
+    width: 100px;
+    height: 55px;
+    overflow: hidden;
+
+}
+.index {
+    position: relative;
+    max-width: 1920px;
+    overflow: hidden;
+    height: 2450px;
+    margin: 0 auto;
+    z-index: -1;
+
+}
+
+.img1 {
+    width: 1920px;
+    overflow: hidden;
+    height: 2454px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -959px;
+    z-index: -9999;
+    background: url(../images/main_bg_5128172.jpg) no-repeat;
+}
+.index .img1 .img2{
+    width: 100%;
+    height: 579px;
+    position: relative;
+    background:url("../images/top_bg_ab1c147.jpg") no-repeat;
+    z-index: -999;
+}
+ .w{
+    position: relative;
+}
+.w .logoa{
+    position: absolute;
+    top: -2420px;
+    left: -60px;
+    z-index: 200;
+    cursor: url("../images/no.png"),move;
+}
+.w .logob{
+    position: absolute;
+    top: -2467px;;
+    left: 371px;
+    z-index: -1;
+}
+
+.slide {
+    height:500px;
+    position: relative;
+    top: -2449px;
+
+}
+#tiao{
+    display: inline-block;
+    position: relative;
+    left: 0;
+    top: -33px;
+    width: 172px;
+    height: 100px;
+    text-align: center;
+}
+#tiao span{
+    position: absolute;
+    left: 64px;
+    top: 32px;
+    color:rgb(227, 189, 111);
+}
+.banner_sp1{
+    color:rgb(227, 189, 111);
+}
+.bodya{
+    transition: all 2s linear;
+    transform: rotate(360deg);
+    transform-origin: right bottom;
+}
+.slide li{
+    position: absolute;
+    left:200px;
+    top:0;
+}
+.slide li img{
+    width:100%;
+}
+.arrow{
+    opacity: 0;
+}
+.prev,.next{
+    width:76px;
+    height:112px;
+    position: absolute;
+    top:50%;
+    margin-top:-56px;
+    background: url(../images/prev.png) no-repeat;
+    z-index: 99;
+}
+.next{
+    right:0;
+    background-image: url(../images/next.png);
+}
+.big_lunbo{
+    position: absolute;
+    left: 195px;
+    top: 29px;
+    height: 600px;
+}
+
+/*导航*/
+.banner{
+    width: 100%;
+    height: 100px;
+    background:url("../images/nav_bar_59a54a3.jpg");
+    position: absolute;
+    top: 634px;
+    z-index: 1;
+}
+.banner .banner_ul{
+    position: relative;
+    z-index: 1;
+}
+.banner .banner_ul li{
+    float: left;
+    width: 172px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+.banner .banner_ul li .banner_sp{
+    float: left;
+    width: 172px;
+    height: 100px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    margin-top: 32px;
+}
+.banner .banner_ul li .banner_sp1{
+    position: absolute;
+    font-size: 10px;
+    top: 66px;
+    left: 73px;
+    color: #5b6650;
+}
+
+.banner .banner_ul li .banner_sp3{
+    position: absolute;
+    font-size: 10px;
+    top: 66px;
+    left: 62px;
+    color: #5b6650;
+}
+.banner .banner_ul .banner_fist{
+    background:url("../images/nav_bg_95dc918.jpg");
+}
+.banner .banner_ul .banner_fist .banner_sp{
+    color: #e3bd6f;
+}
+.banner .banner_ul .banner_fist .banner_sp1{
+    color: #e3bd6f;
+}
+.banner .banner_ul .banner_last{
+    width: 168px;
+    height: 100px;
+    position: relative;
+    float: right;
+    text-align: center;
+}
+.banner .banner_ul .banner_last .banner_sp6{
+    color: #7d0d1d;
+    font-weight: 700;
+    font-size: 22px;
+    position: absolute;
+    top: 32px;
+    left: 40px;
+}
+
+.banner .banner_ul .banner_last .banner_sp5{
+    position: absolute;
+    top: 66px;
+    left: 73px;
+    font-size: 10px;
+    color: #7d0d1d;
+    font-weight: 500;
+
+}
+.banner .banner_ul .banner_last i{
+    position: absolute;
+    width: 168px;
+    height: 5px;
+    z-index: -1;
+    left: 0;
+    bottom: 0px;
+    border-radius: 50%;
+    background-color: #7d0d1d;
+}
+.banner .banner_ul .banner_bg{
+    width: 172px;
+    height: 100px;
+    background:url("../images/nav_bg_95dc918.jpg");
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+/*第一赛季*/
+.saijione .saijionea{
+    position: relative;
+}
+.saijione .saijionea .onebt{
+    position: absolute;
+    left: 200px;
+    top: -1720px;
+}
+.saijione .saijionea .saijioneb{
+    position: absolute;
+    left: 150px;
+    top: -1630px;
+    width: 141px;
+    height: 300px;
+    background: url("../images/ss_bg_7c3d002.jpg") no-repeat;
+}
+
+.saijione .saijionea .saijioneb .saijioneb1{
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    width: 0;
+    height: 0;
+    background-color: white;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: none;
+}
+.saijione .saijionea .saijioneb .saijioneb2{
+    background-image:url("../images/ss_bg_h_4138897.jpg") ;
+    width: 141px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+   display: none;
+}
+.saijione .saijionea .saijioneb .saijioneb3{
+    position: absolute;
+    left: 30px;
+    top: 25px;
+}
+.saijione .saijionea .saijioneb .saijioneb4{
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    left: 4px;
+    top: 124px;
+    z-index: 2;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #fdc585;
+}
+.saijione .saijionea .saijioneb .saijioneb5{
+   text-align: center;
+    position: absolute;
+    left: 50px;
+    top: 190px;
+    z-index: 2;
+    color: #fdc585;
+    font-weight: 700;
+    line-height: 1.5;
+
+}
+.saijione .saijionea .saijionec{
+    position: absolute;
+    left: 400px;
+    top: -1630px;
+    width: 141px;
+    height: 300px;
+    background: url("../images/ss_bg_7c3d002.jpg") no-repeat;
+}
+.saijione .saijionea .saijioned{
+    position: absolute;
+    left: 650px;
+    top: -1630px;
+    width: 141px;
+    height: 300px;
+    background: url("../images/ss_bg_7c3d002.jpg") no-repeat;
+}
+.saijione .saijionea .saijionee{
+    position: absolute;
+    left: 910px;
+    top: -1630px;
+    width: 141px;
+    height: 300px;
+    background: url("../images/ss_bg_7c3d002.jpg") no-repeat;
+}
+
+
+
+
+
+
+
+
+
+/*内容轮播*/
+.conter{
+    position: absolute;
+    left: 0;
+    top: 1260px;
+    height: 317px;
+    width: 100%;
+    /*background-color: pink;*/
+}
+.conter .conterleft{
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 317px;
+    overflow: hidden;
+}
+.conter .w .conterlunbo{
+    position: absolute;
+    width: 3605px;
+    height: 317px;
+}
+.conter .w .conterlunbo li{
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 317px;
+}
+.conter .w .conterlunbo li .conterlunbo1{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.conter .w  .conterlunboa{
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    width: 721px;
+    height: 36px;
+    z-index: 150;
+}
+.conter .w  .conterlunboa li{
+    float: left;
+    width: 179px;
+    height: 36px;
+    background-color: black;
+    opacity: 0.8;
+    z-index: 150;
+    margin-right: 1px;
+    text-align: center;
+    line-height: 36px;
+    color: #d3d3d3;
+    font-weight: 500;
+    cursor: url("../images/no.png"),move;
+}
+
+.conter .w .conterright{
+    float: right;
+    height: 317px;
+    width: 460px;
+    position: relative;
+    overflow: hidden;
+}
+
+.conter .w .conterright .conterrightp{
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 1px solid #cccccc;
+
+}
+.conter .w .conterright .conterrightp .left1{
+    float: left;
+    color: #ffc580;
+    font-size: 24px;
+}
+.conter .w .conterright .conterrightp .right1{
+    float: right;
+}
+.conter .w .conterright .conterrightp .right1 .right2:hover{
+    color: #ffc580;
+}
+.conter .w .conterright .conterrightp .right1 .right3:hover{
+    color: #ffc580;
+}
+.conter .w .conterright .conterrightp .right1 .right3{
+    padding: 0 18px;
+}
+.conter .w .conterright .conterrightp .right1 .right4{
+    display: inline-block;
+    background-color: #ccc;
+    height: 18px;
+    width: 1px;
+}
+.conter .w .conterright .conterrightp .right1 .right2{
+    padding: 0 18px;
+
+}
+.conter .w .conterright ul{
+    float: left;
+    margin-top: 14px;
+    height: 108px;
+    width: 460px;
+}
+.conter .w .conterright ul li{
+    line-height: 27px;
+}
+.conter .w .conterright ul li .conterright1{
+    float: left;
+
+}
+.conter .w .conterright ul li .conterright1:hover{
+    color: #ffc580;
+}
+.conter .w .conterright ul li .conterright2{
+    float: right;
+}
+.rightlunbo{
+   position: absolute;
+    width: 920px;
+}
+.conter .w .conterright .jjxx{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 458px;
+    height: 36px;
+    background:url("../images/index_z_d38b027.png") no-repeat 0 -344px;
+}
+.conter .w .conterright .jjxx1{
+    position:absolute;
+    bottom: -66px;
+    left: 150px;
+    width: 120px;
+    height: 102px;
+
+}
+.conter .w .conterright .jjxx1 .jjxx2{
+    position: absolute;
+    height: 34px;
+    line-height: 34px;
+    font-weight: 700;
+}

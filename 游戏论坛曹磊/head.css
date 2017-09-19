@@ -1,0 +1,426 @@
+/*头*/
+.cl_topheader{
+    height:45px;
+    background-color: black;
+}
+.cl_topheader .cl_topheader_left a{
+    height: 45px;
+    line-height: 45px;
+    padding: 0 4px;
+    color: #999;
+}
+.cl_topheader .cl_topheader_left .cl_topheader_left1{
+    color: yellow;
+}
+.cl_topheader .cl_topheader_right{
+    height: 45px;
+    line-height: 45px;
+}
+.cl_topheader_right .cl_topheader_right1{
+    position:relative;
+    float: left;
+    margin-right: 5px;
+}
+.cl_topheader_right .cl_topheader_right1 input{
+    width: 200px;
+    height: 18px;
+    border-radius:100px;
+    background-color: #bbb;
+    padding: 5px 10px;
+}
+.cl_topheader_right .cl_topheader_right1 button{
+    background: url("image/toptb-icon.png") no-repeat -44px -2px;
+    position: absolute;
+    top:10px;
+    right: 8px;
+    width: 22px;
+    height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+    border: 0;
+    cursor: pointer;
+}
+.cl_topheader_right  span{
+    margin-right: 4px;
+    color:#fff;
+    font-weight: 600;
+}
+.cl_topheader_right a{
+    display:inline-block;
+    color: #999;
+    margin-right: 12px;
+}
+
+/*logo注册区域*/
+.cl_main .cl_logo{
+    height: 180px;
+    position: relative;
+}
+.cl_main .cl_logo .cl_login{
+    width: 390px;
+    height: 56px;
+    background-color:rgba(0,0,0,0.6);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top:-38px ;
+    border-radius: 5px;
+    padding: 10px;
+}
+.cl_login .cl_login_lf{
+    width: 330px;
+    float: left;
+}
+
+.cl_login .cl_login_lf .cl_login_lf_top{
+    height: 28px;
+    width: 332px;
+}
+.cl_login .cl_login_lf .cl_login_lf_top select{
+    border: none;
+    background-color: transparent;
+    width: 86px;
+    color: #b6a284;
+
+
+}
+
+.cl_login .cl_login_lf .cl_login_lf_top .cl_sss{
+    width: 150px;
+    height: 20px;
+    background: rgba(116,114,121,.6);
+    color: #fff;
+
+
+}
+
+
+.cl_login .cl_login_lf .cl_login_lf_but{
+    height: 28px;
+    width: 332px;
+}
+.cl_login .cl_login_lf .cl_login_lf_but a{
+    display: inline-block;
+    width: 82px;
+    padding-left: 4px;
+    color: #b6a284;
+    font-size: 13px;
+}
+.cl_login .cl_login_lf .cl_login_lf_but input{
+    width: 150px;
+    height: 20px;
+    background: rgba(116,114,121,.6);
+    color: #fff;
+}
+.cl_login .cl_login_lf .cl_login_lf_but button{
+    width: 75px;
+    height: 23px;
+    background-color: #7c1411;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+
+
+.cl_logo .cl_login .cl_login_rg{
+    border-left: 1px solid #BEA988;
+    width: 58px;
+    height: 56px;
+    float: right;
+}
+.cl_logo .cl_login .cl_login_rg a{
+    display: block;
+    height: 28px;
+    padding-left: 4px;
+    color:#de4d1b ;
+}
+.cl_logo .cl_login .cl_login_rg a:hover{
+    text-decoration:underline;
+}
+
+
+
+
+
+/*导航开始区域*/
+/*.cl_main{*/
+    /*background-color:#f6f6f6;*/
+/*}*/
+
+.cl_main .cl_nav{
+
+    height: 45px;
+    background-color: #3e3838;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.cl_main .cl_nav .cl_nav1{
+    margin: 0 15px;
+}
+ .cl_nav .cl_nav1 ul li{
+    float: left;
+    width: 135px;
+    height: 45px;
+    line-height: 45px;
+
+}
+.cl_nav .cl_nav1 ul li:hover{
+    background-color: #b31716;
+}
+.cl_nav .cl_nav1 li.cl_nav1_a{
+    background-color: #b31716;
+    border-right: 1px solid black;
+}
+.cl_nav .cl_nav1 ul li a{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+
+}
+.cl_nav .cl_nav1 ul li a.sb{
+    color: yellow;
+}
+.cl_nav .cl_nav1 .cl_nav1_b{
+    display: inline-block;
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    margin: 10px 20px 0;
+    text-align: center;
+    color: white;
+   background: url("image/qmenu-1.png")no-repeat 0 0 ;
+
+
+
+}
+.cl_nav .cl_nav1 .cl_nav1_c{
+    width: 60px;
+    height: 28px;
+    display: inline-block;
+    line-height: 28px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #d9470e;
+    text-align: center;
+    background: #f2f0f1;
+    margin-left: 15px;
+}
+.cl_nav .cl_nav1 .cl_nav1_c:hover{
+    background-color: pink;
+}
+
+
+
+/*栏目区域*/
+
+.cl_column{
+    height: 64px;
+    background-color: #F6F6F6;
+
+}
+.cl_column dl{
+    height: 32px;
+
+
+
+}
+.cl_column dl dt{
+    float: left;
+    margin:5px 15px;
+    height: 22px;
+    line-height: 22px;
+    background: #ae0500;
+    font-weight: bold;
+    color: #fff;
+
+}
+.cl_column dl dd{
+    float: left;
+    width: 72px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 5px;
+    border-right: 1px solid #ccc;
+
+}
+.cl_column dl dd.cl_column_1{
+    border: none;
+}
+.cl_column dl dd a{
+    color: #333;
+}
+.cl_column dl dd a:hover{
+    text-decoration: underline;
+    color:#ae0500 ;
+}
+/*轮播区域*/
+.cl_scroll{
+    height: 270px;
+    background-color: white;
+
+}
+.cl_scroll .cl_scroll_left{
+    position: relative;
+    width: 400px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+.cl_scroll .cl_scroll_left .cl_scroll_left1{
+    width: 400px;
+    position: absolute;
+}
+.cl_scroll .cl_scroll_left .cl_scroll_left1 li{
+    /*float: left;*/
+
+}
+
+
+.cl_scroll .cl_scroll_left .cl_scroll_left1 li p{
+    position: absolute;
+    height: 40px;
+    width: 390px;
+    bottom: 0px;
+    line-height: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+}
+
+.cl_scroll .cl_scroll_left .cl_scroll_left2{
+    position: absolute;
+    right: 20px;
+    bottom: 12px;
+}
+
+.cl_scroll .cl_scroll_left ol li{
+    float: left;
+    height: 10px;
+    width: 10px;
+    background-color: #c3bebf;
+    border-radius:5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+/*.cl_scroll .cl_scroll_left .cl_scroll_left2 li:hover{*/
+    /*background-color: #0099cc;*/
+/*}*/
+.cl_current{
+    background-color: #0099cc !important;
+
+
+}
+.show{
+    display: block;
+}
+/*中间*/
+.cl_scroll .cl_scroll_center{
+    width: 380px;
+    height: 270px;
+    padding-right: 10px;
+}
+.cl_scroll .cl_scroll_center .cl_scroll_centertop{
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: yellow;
+}
+.cl_scroll .cl_scroll_center .cl_scroll_centertop a{
+    font-size: 16px;
+    font-weight: bold;
+    color: blue;
+}
+.cl_scroll .cl_scroll_center .cl_scroll_centertop a:hover{
+    text-decoration: underline;
+}
+.cl_scroll .cl_scroll_center .cl_scroll_centerleft{
+    float: left;
+    margin-left: 20px;
+}
+.cl_scroll .cl_scroll_center .cl_scroll_centerleft .cl_scroll_centerleft_T{
+    padding: 11px 0;
+}
+.cl_scroll .cl_scroll_center .cl_scroll_centerleft .cl_scroll_centerleft_T li{
+    height: 22px;
+    line-height: 22px;
+}
+.cl_scroll .cl_scroll_center .cl_scroll_centerleft .cl_scroll_centerleft_T li a{
+    font-size: 13px;
+    color: #0000FF;
+}
+.cl_scroll .cl_scroll_center .cl_scroll_centerleft .cl_scroll_centerleft_T li a:hover{
+    text-decoration: underline;
+}
+
+.cl_scroll .cl_scroll_center .cl_scroll_centerleft .cl_scroll_centerleft_B li a{
+    color: #FF0000;
+}
+
+.cl_scroll .cl_scroll_center .cl_scroll_centerright{
+    float: right;
+}
+.cl_scroll .cl_scroll_center .cl_scroll_centerright .cl_scroll_centerright_T{
+    padding:11px 0;
+    position: relative;
+}
+.cl_scroll .cl_scroll_center .cl_scroll_centerright .cl_scroll_centerright_T p{
+    position: absolute;
+    bottom: 11px;
+    left: 0;
+    width: 120px;
+    height: 24px;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    line-height: 24px;
+}
+.cl_scroll .cl_scroll_right{
+    width: 384px;
+    padding: 11px 0px;
+
+
+}
+.cl_scroll .cl_scroll_right .cl_scroll_right_T{
+    height: 125px;
+    margin-bottom: 10px;
+}
+.cl_scroll .cl_scroll_right .cl_scroll_right_B{
+    width: 384px;
+    height: 115px;
+    background-color: #f6f6f6;
+    overflow: hidden;
+
+}
+.cl_scroll .cl_scroll_right .cl_scroll_right_B li{
+    float: left;
+    width: 127px;
+    height: 58px;
+    border-right: 1px solid #e6e6e7;
+    border-bottom: 1px solid #e6e6e7;
+    color: #707070;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 58px;
+    cursor: pointer;
+}
+.cl_scroll .cl_scroll_right .cl_scroll_right_B li:hover{
+    background: #3c3737;
+    color: #fff;
+}
+
+
+
+
+
+
+
